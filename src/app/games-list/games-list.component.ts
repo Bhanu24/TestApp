@@ -58,6 +58,7 @@ export class GamesListComponent implements OnInit {
         // console.log('CsV Data : ' + this.JSONData);
         console.log('Data Source : ' + this.dataSource);
       },
+      // Error Log
       error => {
         console.log(error);
       });
